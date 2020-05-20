@@ -36,34 +36,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         playSportName(imageButtonView.getTag().toString());
 
-        switch (imageButtonView.getId()) {
-
-            case R.id.imgBoxing:
-
-//                playSportName(imageButtonView.getTag().toString());
-                break;
-            case R.id.imgKickboxing:
-
-//                playSportName(imageButtonView.getTag().toString());
-                break;
-
-            case R.id.imgJudo:
-
-                break;
-
-            case R.id.imgKarate:
-
-                break;
-
-            case R.id.imgAikido:
-
-                break;
-
-            case R.id.imgTaekwondo:
-
-                break;
-        }
-
     }
 
     private void playSportName(String sportName) {
